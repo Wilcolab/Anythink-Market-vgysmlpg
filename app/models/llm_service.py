@@ -122,9 +122,13 @@ class LLMService:
             return "general_question"
     
     def validate_user_input(self, user_input: str, block_conditions: str) -> bool:
+        
+        
+
+        
         """
         Validate user input for potential security threats in a banking context
-
+        
         Args:
             user_input: The user's input to validate
             block_conditions: String containing specific conditions to block
